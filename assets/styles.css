@@ -1,0 +1,383 @@
+@import url("standard-styles.css");
+
+/* You can add global styles to this file, and also import other style files */
+body{
+        color: #848484;
+        font-family: 'Roboto',arial,sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+}
+
+.h-bb{
+    border-bottom: solid 3px #00bfa5;
+    width: 60px;
+}
+h2{
+    font-size: 38px;
+    line-height: 48px;
+    margin: 0 0 25px;
+        letter-spacing: -.1px;
+}
+h3{
+    color: #444;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 0 20px;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+a{
+    color: #00bfa5;
+}
+a:hover{
+    color: #00bfa5;
+}
+i{
+    color: #00bfa5;
+}
+
+
+.navbar-default {
+    background-color: #00bfa5;
+    border-color: #e7e7e7;
+    height: 80px;
+    vertical-align: middle;
+}
+.navbar-brand h3{
+    color: #FFF;
+    font-size: 20px;
+}
+.navbar-default i{
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 30px 20px;
+    font-size: 20px;
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f1f1f1;
+    background-color: transparent;
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  /* define mobile specific styles come here */
+  .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover {
+        color: #FFF;
+        background-color: #777;
+    }
+}
+.main-content{
+    margin-top: 80px;
+}
+@media (min-width:768px) {
+	.container  {
+		width: 750px;
+	}
+}
+
+/* Medium devices (desktops, tablets, 992px and up) */
+@media (min-width:992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+/* Large devices (Large desktops 1200px and up) */
+@media (min-width:1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+@media (min-width: 768px){
+    .section {
+        padding: 88px 0 94px;
+    }
+}
+.section {
+    padding: 42px 0 44px;
+}
+.section-dark {
+    padding: 42px 0 44px;
+    color: #fff;
+    
+}
+
+.section-dark i{
+    color: #fff;
+}
+
+.light-gray {
+    background-color: #f6f6f6;
+}
+.green{
+    background-color: #00bfa5;
+}
+.fc-w{
+    color: #fff;
+}
+.fc-b{
+    color: #000;
+}
+@media (min-width: 768px){
+    blockquote {
+        font-size: 34px;
+        line-height: 48px;
+    }
+}
+
+blockquote {
+    font-family: 'Roboto Slab',palatino,serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -.1px;
+    line-height: 28px;
+    margin: 0;
+    border: none !important;
+}
+.reasons .item{
+    margin-bottom: 40px;
+}
+
+.process i
+{
+    padding: 10px 10px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+}
+.process-line-before{
+    content: "";
+    position: absolute;
+    top: 15%;
+    left:0%;
+    display: block;
+    width: 46%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: -1px;
+    border-color: #ccc !important;
+}
+.process-line-after{
+    content: "";
+    position: absolute;
+    top: 15%;
+    left:calc(46% + 30px);
+    display: block;
+    width: calc(50% + 30px);
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: -1px;
+    border-color: #ccc !important;
+}
+@media (max-width: 1024px){
+    .process-line-before {
+        display: none;
+    }
+    .process-line-after {
+        display: none;
+    }
+}
+.footer{
+    font-size: 14px;
+    background-color: #00bfa5;
+    color: #fff;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+
+}
+.footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*.footer-links > li {
+    float: left;
+}*/
+.footer h4{
+    color: #fff;
+    font-size: 18px;
+}
+.footer-links > li > a {
+    display: block;
+    padding: 0px 8px 0px 8px;
+    color: #fff;
+}
+
+.team{
+    overflow:hidden;
+    padding: 20px;
+    max-height: 350px;
+}
+.team-member{
+    max-height: 250px;
+}
+.image-box {
+    background-color: #fafafa;
+    border: 1px solid #f3f3f3;
+}
+.overlay-container {
+    display: block;
+    overflow: hidden;
+}
+.image-box-body {
+    padding: 20px 15px 15px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+.list > li {
+    margin-top: 10px;
+}
+.service-list{
+     list-style: none;
+     padding: 0;
+ }
+ .service-list > li {
+     margin-top: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     color: #333;
+     text-transform: uppercase;
+     border-bottom: dashed 1px #777;
+ }
+ .service-list .muted {
+     border-bottom: 0px !important;
+     margin-top: 0px;
+     text-transform: lowercase;
+     font-size: 13px;
+     color: #777;
+ }
+ .service-price{
+     font-size: 14px;
+     float: right;
+ }
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+}
+.form-control {
+    border-radius: 0;
+    background: #ffffff;
+    height: 40px;
+    padding-right: 30px;
+    border-color: #acacac;
+    color: #666666;
+    position: relative;
+    -webkit-appearance: none;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .075);
+}
+.error_input{
+    border: solid 1px red;
+}
+.errormsg{
+    color: red;
+}
+.page-banner{
+    width: 100%;
+}
+
+.quote {
+    flex: 49% 0 0;
+    margin: 0 0 30px;
+    position: relative;
+    border-radius: 4px;
+    background: #f6f9fa;
+    color: #7b8b8e;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    height: 100%;
+}
+
+.quote-text {
+    font-size: 14px;
+    padding: 10px;
+}
+.quote-text p {
+    margin: 0;
+    color: #676c76;
+}
+
+.quote-bio {
+    position: relative;
+    padding: 10px;
+    border-top: 1px solid #fff;
+}
+.quote-bio span {
+    color: #191c22;
+    font-weight: 600;
+}
+.quote-bio p {
+    font-style: normal;
+    margin: 0;
+}
+.quote-social{
+    float: right;
+    position: absolute;
+    top: 25px;
+    right:25px;
+}
+.quote-social a{
+    color: #191c22;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+
+#sticky-social {
+   right: 0;
+   position: fixed;
+   top: 70%;
+   z-index: 10;
+}
+#sticky-social a {
+   background: #ff900a;
+   color: #fff;
+   display: block;
+   height: 35px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+}
+#sticky-social a span {
+   line-height: 35px;
+   left: -120px;
+   position: absolute;
+   text-align:center;
+   width:120px;
+}
+#sticky-social a:hover span {
+   left: 100%;
+   color:#f1f1f1;
+}
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span { background: #ff900a; }
+
+#sticky-social a[class*="gplus"],
+#sticky-social a[class*="gplus"]:hover,
+#sticky-social a[class*="gplus"] span { background: #ff900a; }  
+.panel-footer {
+    background-color: #fff;
+}
